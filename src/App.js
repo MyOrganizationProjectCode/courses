@@ -2,10 +2,7 @@ import React from "react";
 import './App.css';
 import BackEnd from "./components/BackEnd";
 import FrontEnd from "./components/FrontEnd";
-<<<<<<< HEAD
-=======
 import {Button, Collapse, Navbar} from "react-daisyui";
->>>>>>> 5b182eaa8d386bbd8f5a7d8b5e641059ed88dd5f
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./components/Home";
 
