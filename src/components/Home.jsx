@@ -1,6 +1,6 @@
 import React from 'react';
-import {Link} from "react-router-dom";
-import {Button, Hero, Navbar} from "react-daisyui";
+import { Link } from "react-router-dom";
+import { Button, Hero, Navbar } from "react-daisyui";
 
 const Home = () => {
     return (
@@ -19,6 +19,7 @@ const Home = () => {
                     <img
                         src="https://api.lorem.space/image/movie?w=260&h=400"
                         className="max-w-sm rounded-lg shadow-2xl"
+                        alt='rasm'
                     />
                     <div>
                         <h1 className="text-5xl font-bold">Box Office News!</h1>

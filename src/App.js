@@ -1,13 +1,11 @@
-import React, {useState} from "react";
+import React from "react";
 import './App.css';
 import BackEnd from "./components/BackEnd";
 import FrontEnd from "./components/FrontEnd";
-import {Collapse} from "react-daisyui";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./components/Home";
 
 function App() {
-    const [tab, setTab] = useState(0)
   return (
       <BrowserRouter>
           <Routes>
