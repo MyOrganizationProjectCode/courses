@@ -5,15 +5,6 @@ import {Button, Hero, Navbar} from "react-daisyui";
 const Home = () => {
     return (
         <>
-            <div className="flex w-full component-preview p-4 bg-primary items-center justify-center gap-2 font-sans">
-                <Navbar>
-                    <Button className="text-xl normal-case" color="ghost">
-                        D-study
-                    </Button>
-                </Navbar>
-            </div>
-
-
             <Hero>
                 <Hero.Content>
                     <img
